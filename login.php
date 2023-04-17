@@ -17,8 +17,9 @@
     $accessGranted = true;
   }
 
-  ?>
 
+  ?>
+  <hr>
   <?php 
   if($accessGranted) {
     echo "Benvenuto";

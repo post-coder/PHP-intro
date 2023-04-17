@@ -15,6 +15,7 @@
     i nostri dati
   -->
   <h2>Form tramite GET</h2>
+  
   <form action="login.php" method="GET">
     <!-- i nomi dei parametri VANNO INDICATI nel form, tramite l'attributo name -->
     <input type="email" placeholder="Email" name="email" required>
@@ -33,6 +34,9 @@
     <button type="submit">Effettua il login</button>
 
   </form>
+
+  <hr>
+  Pagina delle stringhe: <a href="strings.php">Qui</a>
 
 
 </body>
